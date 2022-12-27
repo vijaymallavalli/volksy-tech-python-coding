@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import random
-number = random.randit(-10000, 10000)
+number = random.randint(-10000, 10000)
 a = number % 10
 if str(number)[0] == "-":
     a = a-10
